@@ -14,6 +14,10 @@
 		AF3595A11CCF90490008B362 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF35959F1CCF90490008B362 /* LaunchScreen.storyboard */; };
 		AF3595AC1CCF90490008B362 /* youlinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3595AB1CCF90490008B362 /* youlinTests.swift */; };
 		AF3595B71CCF90490008B362 /* youlinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3595B61CCF90490008B362 /* youlinUITests.swift */; };
+		AF606C181CD1EDFB00B4F2BF /* LoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF606C171CD1EDFB00B4F2BF /* LoginAndRegister.storyboard */; };
+		AF606C1D1CD1EF5600B4F2BF /* Linjuquan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF606C1B1CD1EF5600B4F2BF /* Linjuquan.storyboard */; };
+		AF606C1F1CD1EF8400B4F2BF /* Faxian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF606C1E1CD1EF8400B4F2BF /* Faxian.storyboard */; };
+		AF606C221CD1EFA300B4F2BF /* Wo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF606C201CD1EFA300B4F2BF /* Wo.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		AF3595B21CCF90490008B362 /* youlinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youlinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3595B61CCF90490008B362 /* youlinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youlinUITests.swift; sourceTree = "<group>"; };
 		AF3595B81CCF90490008B362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF606C171CD1EDFB00B4F2BF /* LoginAndRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginAndRegister.storyboard; sourceTree = "<group>"; };
+		AF606C1C1CD1EF5600B4F2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Linjuquan.storyboard; sourceTree = "<group>"; };
+		AF606C1E1CD1EF8400B4F2BF /* Faxian.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Faxian.storyboard; sourceTree = "<group>"; };
+		AF606C211CD1EFA300B4F2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Wo.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				AF3595961CCF90490008B362 /* AppDelegate.swift */,
 				AF3595981CCF90490008B362 /* ViewController.swift */,
 				AF35959A1CCF90490008B362 /* Main.storyboard */,
+				AF606C201CD1EFA300B4F2BF /* Wo.storyboard */,
+				AF606C1E1CD1EF8400B4F2BF /* Faxian.storyboard */,
+				AF606C1B1CD1EF5600B4F2BF /* Linjuquan.storyboard */,
 				AF35959D1CCF90490008B362 /* Assets.xcassets */,
 				AF35959F1CCF90490008B362 /* LaunchScreen.storyboard */,
 				AF3595A21CCF90490008B362 /* Info.plist */,
+				AF606C171CD1EDFB00B4F2BF /* LoginAndRegister.storyboard */,
 			);
 			path = youlin;
 			sourceTree = "<group>";
@@ -230,8 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3595A11CCF90490008B362 /* LaunchScreen.storyboard in Resources */,
+				AF606C1F1CD1EF8400B4F2BF /* Faxian.storyboard in Resources */,
 				AF35959E1CCF90490008B362 /* Assets.xcassets in Resources */,
 				AF35959C1CCF90490008B362 /* Main.storyboard in Resources */,
+				AF606C221CD1EFA300B4F2BF /* Wo.storyboard in Resources */,
+				AF606C181CD1EDFB00B4F2BF /* LoginAndRegister.storyboard in Resources */,
+				AF606C1D1CD1EF5600B4F2BF /* Linjuquan.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +323,22 @@
 				AF3595A01CCF90490008B362 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF606C1B1CD1EF5600B4F2BF /* Linjuquan.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF606C1C1CD1EF5600B4F2BF /* Base */,
+			);
+			name = Linjuquan.storyboard;
+			sourceTree = "<group>";
+		};
+		AF606C201CD1EFA300B4F2BF /* Wo.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF606C211CD1EFA300B4F2BF /* Base */,
+			);
+			name = Wo.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,6 +514,7 @@
 				AF3595BD1CCF90490008B362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF3595BE1CCF90490008B362 /* Build configuration list for PBXNativeTarget "youlinTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +523,7 @@
 				AF3595C01CCF90490008B362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF3595C11CCF90490008B362 /* Build configuration list for PBXNativeTarget "youlinUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +532,7 @@
 				AF3595C31CCF90490008B362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
